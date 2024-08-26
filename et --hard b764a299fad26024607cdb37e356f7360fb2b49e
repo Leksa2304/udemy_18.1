@@ -1,0 +1,11 @@
+[33mcommit b334bf772cbac9832bd6b9f97b3a9aafec79a580[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Elena Lem <elenalem.web@gmail.com>
+Date:   Fri Aug 16 11:59:55 2024 +0300
+
+    add "use strict"
+
+[33mcommit b764a299fad26024607cdb37e356f7360fb2b49e[m
+Author: Elena Lem <elenalem.web@gmail.com>
+Date:   Fri Aug 16 11:46:42 2024 +0300
+
+    hometask-18.1

@@ -23,7 +23,7 @@ start();
 
 function rememberMyFilms() {
   for (let i = 0; i < 2; i++) {
-    const nameLastFilm = prompt("Один из последних просмотренных фильмов", "");
+    const nameLastFilm = prompt("Один из последних просмотренных фильмов", "").trim();
     const ratingLastFilm = +prompt("На сколько его оцените", "");
 
     if (
@@ -81,19 +81,19 @@ function detectPersonalLevel() {
 detectPersonalLevel();
 
 function showMyDB() {
-    if (personalMovieDB.privat == false) {
-        console.log(personalMovieDB);
-    }
+  if (personalMovieDB.privat == false) {
+    console.log(personalMovieDB);
+  }
 }
 showMyDB();
 
-
 function writeYourGenres() {
   for (let i = 1; i <= 3; i++) {
-    
-    personalMovieDB.genres[i - 1] =  prompt(`Ваш любимый жанр под номером ${i}`);
+    personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
   }
 }
 writeYourGenres();
 
 console.log(personalMovieDB);
+
+
